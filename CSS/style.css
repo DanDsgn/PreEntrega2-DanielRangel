@@ -186,3 +186,71 @@
 
 }
 
+/* Servicios */
+.main-serv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-serv{
+    margin-top: 100px;
+}
+
+.cont-serv .card-conteiner h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #00BBDD;
+    text-align: center;
+
+}
+ 
+.conteiner-serv{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+}
+
+.card-conteiner-serv{
+    background-color: hsla(220, 33%, 18%, 0.004);
+    border-radius: 15px;
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-conteiner-serv img{
+    width: 50%;
+    border-radius: 10px;
+    
+}
+.card-conteiner-serv h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #00BBDD;
+    text-align: center;
+
+}
+
+.card-conteiner-serv a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #00BBDD;
+    color: #ffffff;
+    padding: 10px;
+    width: 49%;
+    border-radius: 10px;
+}
+
+
+
+
