@@ -44,6 +44,12 @@
     
 }
 
+.carrousel-text h1{
+    text-align: center;
+    width: 40%;
+    max-width: 600px;
+}
+
 .carrousel-text p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -153,3 +159,30 @@
     justify-content: end;
     gap: 15px;
 }
+
+/* clases contacto */
+
+.conteiner-contacto{
+    margin-top: 100px;
+    display: flex;
+}
+.conteiner-contacto button{
+    background-color: #00BBDD;
+    border: none;
+
+}
+
+.conteiner-contacto button:hover{
+    background-color: #008197;
+    border: none;
+
+}
+
+.main-contact{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
